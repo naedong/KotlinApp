@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SecondFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:text="이름"
+            app:layout_constraintEnd_toStartOf="@+id/ed_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:text="주 소"
+            app:layout_constraintEnd_toStartOf="@+id/ed_address"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"></TextView>
+
+        <EditText
+            android:id="@+id/ed_address"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_name"/>
+
+        <Button
+            android:id="@+id/btn_address"
+            android:text="주소 찾기"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toEndOf="@+id/ed_address"
+            app:layout_constraintTop_toBottomOf="@+id/ed_name"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:text="성 별"
+            app:layout_constraintEnd_toStartOf="@+id/ed_gender"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"></TextView>
+
+        <EditText
+            android:id="@+id/ed_gender"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_address" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:text="워드"
+            app:layout_constraintEnd_toStartOf="@+id/ed_saveWord"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"></TextView>
+
+
+        <EditText
+            android:id="@+id/ed_saveWord"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_gender"></EditText>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:text="전화"
+            app:layout_constraintEnd_toStartOf="@+id/ed_cellphone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"></TextView>
+
+        <EditText
+            android:id="@+id/ed_cellphone"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_saveWord"></EditText>
+
+        <TextView
+            android:id="@+id/tx_rename"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_cellphone"></TextView>
+
+        <android.widget.Button
+            android:id="@+id/btn_save"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="save"
+            android:textColor="@color/mainWhite"
+            android:background="@drawable/dimension_button"
+            android:fontFamily="@font/imcresoojin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_saveWord"></android.widget.Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

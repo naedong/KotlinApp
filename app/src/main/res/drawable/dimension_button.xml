@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Drop Shadow Stack -->
+    <!-- Background -->
+    <item>
+        <shape>
+
+            <corners android:radius="12dp"/>
+            <solid android:color="@color/startBtn" />
+        </shape>
+    </item>
+
+</layer-list>

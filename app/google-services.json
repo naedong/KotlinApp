@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682956809574",
+    "project_id": "testnavigation-2f6db",
+    "storage_bucket": "testnavigation-2f6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682956809574:android:c5d785815b4df249b014a7",
+        "android_client_info": {
+          "package_name": "kr.co.testnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682956809574-6p7fqjj2tqimg0jp7lrucl04rli7eput.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf-2WTiP4E21mo2LAIXrVo894VhSyBDWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682956809574-6p7fqjj2tqimg0jp7lrucl04rli7eput.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
